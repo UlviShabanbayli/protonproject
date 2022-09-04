@@ -1,0 +1,366 @@
+/* COMMON STYLES */
+
+.container{
+    position: relative;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+
+/* HEADER STYLES */
+
+.menu{
+    background-image: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url(../img/mainbg.png);
+    height: 630px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.phone_img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    float: left;
+    margin-top: 15px;
+}
+
+.phone_text{
+    float: left;
+    margin-left: 30px;
+    color:rgba(255, 255, 255, 0.636);
+}
+
+.menu_links{
+    float: right;
+    list-style: none;
+}
+
+.menu_links li{
+    display: inline-block;
+    padding-left: 12px;
+}
+
+.menu_line{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.636);
+    height: 1px;
+    width: 100%;
+    top: 43px;
+}
+
+.menu_logo{
+    position: absolute;
+    float: left;
+    top: 0;
+    left: 0;
+    margin-top: 58px;
+}
+
+.menu_aboutus{
+    position: absolute;
+    float: right;
+    list-style: none;
+    margin-top: 65px;
+    top: 0;
+    right: 0;
+}
+
+.menu_aboutus li{
+    display: inline-block;
+    margin-left: 30px;  
+    font-size: 17px;
+}
+
+.menu_aboutus li a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.636);
+}
+
+.comprod{
+    display: flex;
+    justify-content: center;
+    width: 1170px;
+    padding-top: 420px;
+}
+
+.product1{
+    height: 250px;
+    width: 350px;
+    background-color: #1A5221;
+    background-image:url(../icons/frbc.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    margin: auto;
+    position: relative;
+}
+
+.product1 img{
+    position: absolute;
+    top: 10px;
+    right: 25px;
+}
+
+.product2{
+    height: 250px;
+    width: 350px;
+    background-color: #91B40D;
+    background-image:url(../icons/vgbg.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    margin: auto;
+    position: relative;
+}
+
+.product2 img{
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+}
+
+.product3{
+    height: 250px;
+    width: 350px;
+    background-color: #FFBF00;
+    background-image:url(../icons/frbc.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    margin: auto;
+    position: relative;
+}
+
+.product3 img{
+    position: absolute;
+    top: 10px;
+    right: -35px;
+}
+
+.comprod h2{
+    padding-top: 20px;
+}
+
+.comprod_descr{
+    padding-left: 35px;
+    color:rgba(255, 255, 255, 0.636);
+}
+
+/* WHOAREWE STYLES */
+
+.whoarewe .wawbg{
+    margin-top: -50px;
+    float: left;
+}
+
+.whoarewe{
+    margin-top: 200px;
+    background-color: #f5f5f5;
+    height: 700px;
+}
+
+.waw{
+    padding-top: 15px;
+    text-align: center;
+    padding-left: 400px;
+}
+
+.waw h2{
+    font-size: 36px;
+}
+
+.waw p {
+    font-size: 15px;
+}
+
+.decicon{
+    position: absolute;
+    padding-top: 405px;
+    padding-left: 510px;
+}
+
+.waw_perks{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.waw_perks div{
+    margin: auto;
+}
+
+/* GARDEN STYLES */
+
+.gardens{
+    margin-top: 100px;
+}
+
+.gardens .g_h_elements{
+    text-align: center;
+    font-size: 36px;
+}
+
+.g_f_elements{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.g_f_elements div{
+    width: 320px;
+    margin: auto;
+}
+
+.g_f_elements div h2{
+    font-size: 120px;
+    margin: 0;
+}
+
+.g_f_elements div h3{
+    font-size: 36px;
+    margin: 0;
+}
+
+.withbg{
+    background-image: url(../icons/gardenicon.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: bottom;
+}
+
+/* PRODUCTS STYLE */
+
+.products{
+    margin-top: 150px;
+}
+
+.products .products_icon{
+    position: absolute;
+    margin-top: -90px;
+    margin-left: -30px;
+}
+
+.products_head{
+    text-align: center;
+}
+
+.products ul{
+    list-style: none;
+    list-style-position: inside;
+    text-align: center;
+    padding: 0;
+}
+
+.products li{
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.products li a{
+    text-decoration: none;
+    color:black;
+}
+
+.p_type{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: -50px;
+}
+
+.p_type .p_t_div{
+    margin-top: 70px;
+    margin-left: 60px;
+    height: 230px;
+    width: 230px;
+}
+
+.p_type .p_t_div div{
+    width: 182px;
+    height: 74px;
+    box-shadow: 1px 1px 3px rgb(199, 198, 198);
+    transform:scale(1.1);
+    background: white;
+    text-align: center;
+    line-height: 0;
+    padding-top: 5px;
+    margin-top: -30px;
+}
+
+/* BLOG STYLE */
+
+.blog{
+    margin-top: 70px;
+}
+
+.blog .blog_header{
+    text-align: center;
+}
+
+.blog .blog_posts{
+    display: flex;
+    justify-content: center;
+}
+
+.blog .blog_posts div{
+    width: 370px;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.blog .blog_posts .uppost{
+    margin-top: 10px;
+}
+
+.blog_icon{
+    position: absolute;
+    right: 0;
+    margin-top: -50px;
+}
+
+/* FOOTER STYLE */
+
+.meladora{
+    margin-top: -100px;
+    height: 675px;
+    background-image: url(../img/footerphoto.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.meladora_foot{
+    padding-top: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.meladora_foot div{
+    margin: auto;
+    margin-top: 0;
+}
+
+.meladora_foot div img{
+    padding-top: 100px;
+}
+
+.meladora_foot div ul li{
+    list-style: none;
+    line-height: 37px;
+    color:#f5f5f5;
+    
+}
+
+.meladora_foot div ul li a{
+    text-decoration: none;
+    color:rgb(199, 198, 198);
+}
+
+.footer_line{
+    background-color: rgb(199, 198, 198);
+    height: 1px;
+    margin-top: 20px;
+}
+
+.copyright{
+    color: rgb(199, 198, 198);
+}
+
