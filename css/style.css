@@ -47,6 +47,13 @@
     opacity: .5;
 }
 
+.fix{
+    background-color: rgb(131, 29, 29);
+    position: fixed; 
+    width: 1170px; 
+    z-index: 9;
+}
+
 .menu_links{
     padding-top: 15px;
     float: right;
