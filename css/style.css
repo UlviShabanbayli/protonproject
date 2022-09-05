@@ -1,4 +1,10 @@
-/* COMMON STYLES */
+/* COMMON STYLESe */
+
+*{
+    margin: 0;
+    color: #3E3737;
+    font-family: 'Cormorant Garamond', serif;
+}
 
 .container{
     position: relative;
@@ -17,6 +23,8 @@
     background-attachment: fixed;
 }
 
+
+
 .phone_img{
     position: absolute;
     top: 0;
@@ -27,11 +35,20 @@
 
 .phone_text{
     float: left;
-    margin-left: 30px;
+    padding-top: 15px;
+    padding-left: 30px;
     color:rgba(255, 255, 255, 0.636);
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
+}
+
+.call_link:hover{
+    transition: all 0.3s;
+    opacity: .5;
 }
 
 .menu_links{
+    padding-top: 15px;
     float: right;
     list-style: none;
 }
@@ -39,6 +56,11 @@
 .menu_links li{
     display: inline-block;
     padding-left: 12px;
+}
+
+.link_hover:hover{
+    transition: all 0.3s;
+    opacity: .5;
 }
 
 .menu_line{
@@ -49,12 +71,24 @@
     top: 43px;
 }
 
+
+
+/*  */
+
+
+/*  */
+
 .menu_logo{
     position: absolute;
     float: left;
     top: 0;
     left: 0;
     margin-top: 58px;
+}
+
+.logo_hover:hover{
+    transition: all 0.3s;
+    opacity: .8;
 }
 
 .menu_aboutus{
@@ -75,6 +109,17 @@
 .menu_aboutus li a{
     text-decoration: none;
     color: rgba(255, 255, 255, 0.636);
+}
+
+.aboutus_hover{
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.aboutus_hover:hover{
+    transition: all 0.3s;
+    opacity: .5;
 }
 
 .comprod{
@@ -139,9 +184,15 @@
     padding-top: 20px;
 }
 
+.comprod p{
+    padding-top: 20px;
+}
+
 .comprod_descr{
     padding-left: 35px;
     color:rgba(255, 255, 255, 0.636);
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 500;
 }
 
 /* WHOAREWE STYLES */
@@ -158,23 +209,36 @@
 }
 
 .waw{
-    padding-top: 15px;
+    padding-top: 55px;
     text-align: center;
     padding-left: 400px;
 }
 
-.waw h2{
+.waw_head{
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 700;
     font-size: 36px;
 }
 
-.waw p {
+.waw_descr{
+    line-height: 25px;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 700;
     font-size: 15px;
+}
+
+.ptop{
+    padding-top: 30px;
 }
 
 .decicon{
     position: absolute;
     padding-top: 405px;
     padding-left: 510px;
+}
+
+.waw_icon{
+    padding-top: 15px;
 }
 
 .waw_perks{
@@ -187,10 +251,25 @@
     margin: auto;
 }
 
+.waw_perks div p{
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 700;
+    font-size: 15px;
+}
+
 /* GARDEN STYLES */
 
 .gardens{
     margin-top: 100px;
+}
+
+.garden_head{
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.garden_icon{
+    margin-top: 15px;
 }
 
 .gardens .g_h_elements{
@@ -204,6 +283,10 @@
     justify-content: center;
 }
 
+.g_f_elements .ptimg{
+    padding-top: 15px;
+}
+
 .g_f_elements div{
     width: 320px;
     margin: auto;
@@ -211,12 +294,22 @@
 
 .g_f_elements div h2{
     font-size: 120px;
-    margin: 0;
+    font-weight: 400;
+    color: #918F8F;
+}
+
+.mth2{
+    margin-top: -80px;
+}
+
+.mbh2{
+    margin-top: -40px;
 }
 
 .g_f_elements div h3{
     font-size: 36px;
-    margin: 0;
+    padding-top: 20px;
+    color: #5F5C5C;
 }
 
 .withbg{
@@ -240,6 +333,8 @@
 
 .products_head{
     text-align: center;
+    font-weight: 700;
+    font-size: 36px;
 }
 
 .products ul{
@@ -259,6 +354,15 @@
     color:black;
 }
 
+.options:active{
+    color: #91B40D;
+}
+
+.options:hover{
+    color: #91B40D;
+    transition: all .3s;
+}
+
 .p_type{
     display: flex;
     justify-content: center;
@@ -273,6 +377,12 @@
     width: 230px;
 }
 
+.p_type .p_t_div:hover{
+    transition: all .3s;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
 .p_type .p_t_div div{
     width: 182px;
     height: 74px;
@@ -285,6 +395,17 @@
     margin-top: -30px;
 }
 
+.p_t_div h5{
+    padding-top: 25px;
+}
+
+.p_t_div p{
+    padding-top: 25px;
+    color: #91B40D;
+}
+
+
+
 /* BLOG STYLE */
 
 .blog{
@@ -295,9 +416,29 @@
     text-align: center;
 }
 
+.blog_head{
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
 .blog .blog_posts{
     display: flex;
     justify-content: center;
+}
+
+.blog .blog_posts h5{
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 15px;
+}
+
+.blog .blog_posts p{
+    font-size: 16px;
+    padding-top: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #7C7A7A;
 }
 
 .blog .blog_posts div{
@@ -354,6 +495,11 @@
     color:rgb(199, 198, 198);
 }
 
+.footer_links_hover:hover{
+    transition: all 0.3s;
+    opacity: .5;
+}
+
 .footer_line{
     background-color: rgb(199, 198, 198);
     height: 1px;
@@ -361,6 +507,7 @@
 }
 
 .copyright{
+    padding-top: 15px;
     color: rgb(199, 198, 198);
 }
 
